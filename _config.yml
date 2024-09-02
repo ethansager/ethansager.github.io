@@ -8,9 +8,7 @@ middle_name: M.
 last_name: Sager
 email: es1772@georgetown.edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-I’m a masters student in International Development Policy at the Georgetown McCourt School of Public Policy. 
-I am interested in impact assements, econometrics, and beneficiary dignity. Previously, I worked as a survey researcher at Gallup and MEL assistant with the Ross Center for Sustainable Cities at the World Resources Insitute. 
-
+  My site
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
