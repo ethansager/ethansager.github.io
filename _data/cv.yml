@@ -3,42 +3,40 @@
   contents:
     - name: Full Name
       value: Ethan Sager
-    - name: Languages
-      value: English
+    - name: Technical Skills
+      value: R, Python, ArcGIS, Stata, Tableau
+
 
 - title: Education
   type: time_table
   contents:
     - title: Masters of International Development Policy
-      institution: Georgetown University, McCourt School of Public Policy, Washington DC, United States of America
+      institution: Georgetown University, McCourt School of Public Policy
       year: 2024- 2026
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
     - title: Bachelor of Arts in Global Development
-      institution: Seattle Pacific University, Seattle, United States of America
+      institution: Seattle Pacific University
       year: 2017-2021
-      description:
-        - Description 1.
-        - Description 2.
+
 
 - title: Experience
   type: time_table
   contents:
+    - title: Graduate Research Assistant
+      institution: Georgetown University, McCourt School of Public Policy
+      year: 2024 - Current
+      description:
+        - Assisted in analysis of baseline survey results for GiveDirectly.
+        - Developed a neighborhood delination in ArcGIS and R for saturation design.
     - title: Associate Consultant
-      institution: Gallup, Washington, DC
+      institution: Gallup
       year: 2022 - 2024
       description:
         - Assisted in the IRT and DIF analysis of FAO FIES food security data around the world.
         - Developed a concept note comparing household and individual respondent selection.
-        - title: Research Coordinator.
-          contents:
-            - Led QC/QA process for web, face to face, and telephone surveys across countries.
-            - Analyzed survey data for public release reports and Gallup.com articles.
+    - title: Research Coordinator
+      description:
+        - Led QC/QA process for web, face to face, and telephone surveys across countries.
+        - Analyzed survey data for public release reports and Gallup.com articles.
     - title: Planning Monitoring Evaluation and Learning Assistant
       institution: World Resources Institute, Ross Center for Sustainable Cities
       year: 2021-2022
@@ -46,18 +44,6 @@
         - Led year end analysis for annual report to the Ross Foundation using mixed methods.
         - Co-authored working paper on the supply and demand of capacity development programs.
         - Established evaluation methodologies for air quality and urban resilience projects KPIs.
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
 
 - title: Other Interests
   type: list
