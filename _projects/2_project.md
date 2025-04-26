@@ -8,5 +8,4 @@ category: micro
 giscus_comments: true
 ---
 
-Cash transfers to refugees in Nairobi. 
-
+Cash transfers to refugees in Nairobi.

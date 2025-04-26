@@ -9,7 +9,7 @@
 - title: Education
   type: time_table
   contents:
-    - title: Masters of International Development Policy 
+    - title: Masters of International Development Policy
       institution: Georgetown University, McCourt School of Public Policy, Washington DC, United States of America
       year: 2024- 2026
       description:
@@ -19,9 +19,9 @@
           contents:
             - Sub-description 1.
             - Sub-description 2.
-    - title: Bachelor of Arts in Global Development 
+    - title: Bachelor of Arts in Global Development
       institution: Seattle Pacific University, Seattle, United States of America
-      year: 1900
+      year: 2017-2021
       description:
         - Description 1.
         - Description 2.
@@ -39,12 +39,12 @@
           contents:
             - Led QC/QA process for web, face to face, and telephone surveys across countries.
             - Analyzed survey data for public release reports and Gallup.com articles.
-    - title: Planning Monitoring Evaluation and Learning Assistant    
-      institution: World Resources Institute, Ross Center for Sustainable Cities  
+    - title: Planning Monitoring Evaluation and Learning Assistant
+      institution: World Resources Institute, Ross Center for Sustainable Cities
       year: 2021-2022
       description:
-        - Led year end analysis for annual report to the Ross Foundation using mixed methods. 
-        - Co-authored working paper on the supply and demand of capacity development programs. 
+        - Led year end analysis for annual report to the Ross Foundation using mixed methods.
+        - Co-authored working paper on the supply and demand of capacity development programs.
         - Established evaluation methodologies for air quality and urban resilience projects KPIs.
 
 - title: Academic Interests
@@ -62,4 +62,4 @@
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Biking, Skiing, Climbing and my dog loki 
+    - <u>Hobbies:</u> Biking, Skiing, Climbing and my dog loki
