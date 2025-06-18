@@ -6,7 +6,6 @@
     - name: Technical Skills
       value: R, Python, ArcGIS, Stata, Tableau
 
-
 - title: Education
   type: time_table
   contents:
@@ -16,7 +15,6 @@
     - title: Bachelor of Arts in Global Development
       institution: Seattle Pacific University
       year: 2017-2021
-
 
 - title: Experience
   type: time_table
