@@ -1,10 +1,10 @@
 ---
 layout: post
 title: A blog about blogs I like
-date: 2015-03-15 16:40:16
+date: 2025-12-27
 description: mostly data science but some economics and politics as well
 tags: data-science economics politics
-categories: sample-posts
+categories: misc
 ---
 
 ```yml

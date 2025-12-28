@@ -8,4 +8,4 @@ category: code
 giscus_comments: false
 ---
 
-I am in the process of building an R package that implements the best practices of HFCs and cleaning from IPA J-PAL and the World Bank. Alot of this code has already been made through Stata however I am in the process of translating it to R. Feel free to make a pull request if you would like to contribute.
+I am in the process of building an R package that implements the best practices of HFCs and cleaning from IPA J-PAL and the World Bank. Alot of this code has already been made in Stata however I am in the process of translating it to R. Feel free to make a pull request if you would like to contribute.

@@ -131,7 +131,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # -----------------------------------------------------------------------------
 
 blog_name: # blog_name will be displayed in your blog page
-blog_description: Mostly ramblings about R, economics, and politics.
+blog_description: Mostly ramblings about R, economics, and development.
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
@@ -302,8 +302,8 @@ jekyll-archives:
     tag: "/blog/tag/:name/"
     category: "/blog/category/:name/"
 
-display_tags: ["formatting", "images", "links", "math", "code", "blockquotes"] # these tags will be displayed on the front page of your blog
-display_categories: ["external-services"] # these categories will be displayed on the front page of your blog
+display_tags: ["data-science", "economics", "politics"] # these tags will be displayed on the front page of your blog
+display_categories: ["misc"] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
