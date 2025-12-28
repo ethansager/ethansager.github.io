@@ -15,7 +15,7 @@ I read a couple blogs. Here are some of my favorites organized by topic.
 
 - [Notes from a data witch](https://blog.djnavarro.net/): Navarro writes about statistics, R, and data science with interesting tech tid bits.
 - [Data Colada](https://datacolada.org/): Mostly follow to keep up with interesting deep dives into replication drama.
-- [arg min](https://argmin.net/): Ben Recht has a great set of posts from his class on machine learning it also goes along with his book Patterns, Predictions, and Actions.
+- [arg min](https://www.argmin.net/): Ben Recht has a great set of posts from his class on machine learning it also goes along with his book Patterns, Predictions, and Actions.
 - [statmodeling](https://statmodeling.stat.columbia.edu/): Andrew Gelman is a prolific blogger in statistics and data science. I mostly follow to keep up with his thoughts on Bayesian statistics.
 
 ## Development Economics
