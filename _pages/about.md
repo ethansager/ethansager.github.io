@@ -9,9 +9,8 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Washington, DC</p>
-    <p>McCourt School of Public Policy</p>
-    <p>125 E St. NW</p>
+    <p>125 E St NW</p>
+    <p>Washington, DC 20001</p>
     <p>es1772@georgetown.edu</p>
 
 news: false # includes a list of news items

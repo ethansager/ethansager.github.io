@@ -1379,7 +1379,9 @@ html[data-theme="dark"] .navbar {
 .navbar.navbar-light .navbar-nav .nav-item .nav-link {
   border-radius: 999px;
   padding: 0.35rem 0.8rem;
-  transition: background-color 0.2s ease, color 0.2s ease;
+  transition:
+    background-color 0.2s ease,
+    color 0.2s ease;
 }
 
 .navbar.navbar-light .navbar-nav .nav-item .nav-link:hover {
@@ -1631,7 +1633,9 @@ html[data-theme="dark"] .featured-posts .card {
   padding: 1.05rem;
   margin-bottom: 0.95rem;
   background-color: rgba(255, 253, 246, 0.7);
-  transition: transform 0.15s ease, box-shadow 0.15s ease;
+  transition:
+    transform 0.15s ease,
+    box-shadow 0.15s ease;
 }
 
 html[data-theme="dark"] .post-list li {
@@ -1668,7 +1672,9 @@ html[data-theme="dark"] .post-list li {
   border-radius: 14px;
   overflow: hidden;
   box-shadow: 0 10px 22px rgba(28, 36, 51, 0.08);
-  transition: transform 0.16s ease, box-shadow 0.16s ease;
+  transition:
+    transform 0.16s ease,
+    box-shadow 0.16s ease;
 }
 
 .projects .card:hover {

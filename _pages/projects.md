@@ -9,18 +9,6 @@ display_categories: [micro, macro, code]
 horizontal: false
 ---
 
-<div class="indie-page-intro projects-intro">
-  <pre class="ascii-art" aria-hidden="true">
-projects://workbench
-   _ __  _ __ ___   __| | ___  ___
-  | '_ \| '__/ _ \ / _` |/ _ \/ __|
-  | |_) | | | (_) | (_| |  __/\__ \
-  | .__/|_|  \___/ \__,_|\___||___/
-  |_|
-  </pre>
-  <p class="indie-status">Small tools, data work, and policy analysis projects grouped by theme.</p>
-</div>
-
 <!-- pages/projects.md -->
 <div class="projects">
 {% if site.enable_project_categories and page.display_categories %}

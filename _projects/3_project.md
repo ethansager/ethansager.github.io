@@ -7,7 +7,9 @@ importance: 2
 category: code
 giscus_comments: false
 ---
+
 IPA GPRL J-PAL and the World Bank have developed a ton of great resources for best practices in household field surveys and data cleaning. You can find these resources here:
+
 - [IPA](https://data.poverty-action.org/data-cleaning/)
 - [Dime Wiki](https://dimewiki.worldbank.org/Data_Management)
 - [J-PAL](https://www.povertyactionlab.org/resource/data-cleaning-and-management)

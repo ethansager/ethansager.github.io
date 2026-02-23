@@ -32,5 +32,6 @@ I read a couple blogs. Here are some of my favorites organized by topic.
 - [Eat More Electrons](https://toddmoss.substack.com/): Todd Moss who also has a great book on the politics of development in Africa writes about the how eletricity access and energy policy is inherently political.
 
 ## "Public Intelectuals" "Cosmopolitan polymaths" or just some people who write on a variety of topics
-- [Noahpinion](https://www.noahpinion.blog/): I have a love hate relationship with this blog at times me and Noah Smith are really on the same wavelength both topically and argumentively other times it feels like he just had to write a post which of course I get given his profession. 
-- [Works in Progress](https://worksinprogress.co/): Though technically a magazine this is a great collection of long form essays on a variety of topics I loved Brian Albrecht's piece on using the Olley-Pakes decomposition to better understand monopolies. 
+
+- [Noahpinion](https://www.noahpinion.blog/): I have a love hate relationship with this blog at times me and Noah Smith are really on the same wavelength both topically and argumentively other times it feels like he just had to write a post which of course I get given his profession.
+- [Works in Progress](https://worksinprogress.co/): Though technically a magazine this is a great collection of long form essays on a variety of topics I loved Brian Albrecht's piece on using the Olley-Pakes decomposition to better understand monopolies.

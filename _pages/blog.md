@@ -16,21 +16,6 @@ pagination:
     after: 3 # The number of links after the current page
 ---
 
-<div class="post">
-  <div class="indie-page-intro blog-intro">
-    <pre class="ascii-art" aria-hidden="true">
-blog://dispatches
-   _______  _______  _______  _______
-  |       ||       ||       ||       |
-  |    _  ||   _   ||    ___||_     _|
-  |   |_| ||  | |  ||   | __   |   |
-  |    ___||  |_|  ||   ||  |  |   |
-  |   |    |       ||   |_| |  |   |
-  |___|    |_______||_______|  |___|
-    </pre>
-    <p class="indie-status">Logbook entries on R workflows, development economics, and practical research notes.</p>
-  </div>
-
 {% assign blog_name_size = site.blog_name | size %}
 {% assign blog_description_size = site.blog_description | size %}
 
