@@ -1413,6 +1413,13 @@ html[data-theme="dark"] .profile .more-info {
   display: grid;
   gap: 0.9rem;
   margin-bottom: 1.35rem;
+
+  .ascii-art {
+    // Scale font so ~175-char wide art always fits without scrolling.
+    // (100vw - 5rem) is usable width; dividing by 110 ensures chars fit.
+    font-size: min(8px, calc((100vw - 5rem) / 110));
+    overflow-x: hidden;
+  }
 }
 
 .ascii-art {
