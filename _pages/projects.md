@@ -2,12 +2,24 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A growing collection of my cool projects.
+description: Notes, builds, and experiments.
 nav: true
 nav_order: 3
 display_categories: [micro, macro, code]
 horizontal: false
 ---
+
+<div class="indie-page-intro projects-intro">
+  <pre class="ascii-art" aria-hidden="true">
+projects://workbench
+   _ __  _ __ ___   __| | ___  ___
+  | '_ \| '__/ _ \ / _` |/ _ \/ __|
+  | |_) | | | (_) | (_| |  __/\__ \
+  | .__/|_|  \___/ \__,_|\___||___/
+  |_|
+  </pre>
+  <p class="indie-status">Small tools, data work, and policy analysis projects grouped by theme.</p>
+</div>
 
 <!-- pages/projects.md -->
 <div class="projects">
