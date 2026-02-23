@@ -3,7 +3,7 @@
  ******************************************************************************/
 
 :root {
-  --global-bg-color: #f3f8f3;
+  --global-bg-color: #e8f5e9;
   --global-code-bg-color: #e7f1e7;
   --global-text-color: #1b2a20;
   --global-text-color-light: #4d6356;
@@ -15,11 +15,11 @@
   --global-footer-link-color: #{$white-color};
   --global-distill-app-color: #4d6356;
   --global-divider-color: rgba(27, 42, 32, 0.16);
-  --global-card-bg-color: #fbfefb;
+  --global-card-bg-color: #eef7ee;
   --global-highlight-color: #1f5a36;
   --global-back-to-top-bg-color: rgba(#{red($black-color)}, #{green($black-color)}, #{blue($black-color)}, 0.4);
   --global-back-to-top-text-color: #{$white-color};
-  --global-newsletter-bg-color: #fbfefb;
+  --global-newsletter-bg-color: #eef7ee;
   --global-newsletter-text-color: #1b2a20;
 
   --global-tip-block: #42b983;

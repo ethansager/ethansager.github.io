@@ -25,6 +25,13 @@ body.fixed-top-nav {
 body.sticky-bottom-footer {
   // Remove padding below footer.
   padding-bottom: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+  .container[role="main"] {
+    flex: 1;
+  }
 }
 
 .container {

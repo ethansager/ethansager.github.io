@@ -512,13 +512,6 @@ footer.sticky-bottom {
 .header-bar {
   border-bottom: 1px solid var(--global-divider-color);
   text-align: center;
-  padding-top: 2rem;
-  padding-bottom: 3rem;
-
-  h1 {
-    color: var(--global-theme-color);
-    font-size: 5rem;
-  }
 }
 
 .tag-category-list {
@@ -554,8 +547,6 @@ footer.sticky-bottom {
   li {
     border-bottom: 1px solid var(--global-divider-color);
     list-style: none;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
 
     .post-meta {
       color: var(--global-text-color-light);
@@ -1313,14 +1304,6 @@ body {
   font-family: "Newsreader", "Iowan Old Style", "Palatino Linotype", Palatino, serif;
   line-height: 1.72;
   letter-spacing: 0.01em;
-  background-image: radial-gradient(circle at 10% -15%, rgba(47, 125, 78, 0.14), transparent 35%),
-    radial-gradient(circle at 100% 0%, rgba(92, 156, 116, 0.1), transparent 32%);
-  background-attachment: fixed;
-}
-
-html[data-theme="dark"] body {
-  background-image: radial-gradient(circle at 8% -12%, rgba(110, 194, 142, 0.14), transparent 32%),
-    radial-gradient(circle at 100% 0%, rgba(64, 85, 74, 0.2), transparent 34%);
 }
 
 h1,
@@ -1352,7 +1335,7 @@ code,
 }
 
 .post {
-  background: rgba(251, 254, 251, 0.9);
+  background: var(--global-card-bg-color);
   border: 1px solid var(--global-divider-color);
   border-radius: 18px;
   padding: clamp(1.1rem, 3vw, 2.25rem);
@@ -1367,7 +1350,7 @@ html[data-theme="dark"] .post {
 .navbar {
   opacity: 1;
   border-bottom: 1px solid var(--global-divider-color);
-  background-color: rgba(243, 248, 243, 0.84);
+  background-color: rgba(232, 245, 233, 0.92);
   backdrop-filter: blur(9px);
   -webkit-backdrop-filter: blur(9px);
 }
@@ -1418,7 +1401,7 @@ html[data-theme="dark"] .navbar.navbar-light .navbar-nav .nav-item .nav-link:hov
   padding: 0.7rem 0.8rem;
   border: 1px dashed var(--global-divider-color);
   border-radius: 10px;
-  background: rgba(251, 254, 251, 0.68);
+  background: var(--global-card-bg-color);
   font-size: 0.85rem;
 }
 
@@ -1440,11 +1423,11 @@ html[data-theme="dark"] .profile .more-info {
   font-size: 0.78rem;
   line-height: 1.24;
   overflow-x: auto;
-  background: linear-gradient(135deg, rgba(47, 125, 78, 0.1), rgba(251, 254, 251, 0.95));
+  background: rgba(47, 125, 78, 0.08);
 }
 
 html[data-theme="dark"] .ascii-art {
-  background: linear-gradient(135deg, rgba(110, 194, 142, 0.2), rgba(31, 34, 33, 0.92));
+  background: rgba(110, 194, 142, 0.12);
 }
 
 .indie-status {
@@ -1470,7 +1453,7 @@ html[data-theme="dark"] .indie-status {
   border: 1px dashed var(--global-divider-color);
   border-radius: 12px;
   padding: 0.9rem 1rem 1rem;
-  background-color: rgba(251, 254, 251, 0.78);
+  background-color: var(--global-card-bg-color);
 }
 
 html[data-theme="dark"] .indie-card {
@@ -1505,7 +1488,7 @@ html[data-theme="dark"] .indie-card {
   font-size: 0.8rem;
   text-decoration: none;
   color: var(--global-text-color);
-  background-color: rgba(251, 254, 251, 0.9);
+  background-color: var(--global-card-bg-color);
 }
 
 html[data-theme="dark"] .indie-pill {
@@ -1568,7 +1551,7 @@ footer.sticky-bottom {
   margin-bottom: 1rem;
   border: 1px dashed var(--global-divider-color);
   border-radius: 12px;
-  background-color: rgba(251, 254, 251, 0.72);
+  background-color: var(--global-card-bg-color);
   text-align: left;
   padding: 1rem 1rem 1.1rem;
 }
@@ -1609,7 +1592,7 @@ html[data-theme="dark"] .header-bar {
   border-radius: 999px;
   padding: 0.3rem 0.65rem;
   font-size: 0.8rem;
-  background-color: rgba(251, 254, 251, 0.7);
+  background-color: var(--global-card-bg-color);
 }
 
 html[data-theme="dark"] .tag-category-list ul li {
@@ -1619,7 +1602,7 @@ html[data-theme="dark"] .tag-category-list ul li {
 .featured-posts .card {
   border: 1px solid var(--global-divider-color);
   border-radius: 12px;
-  background-color: rgba(251, 254, 251, 0.83);
+  background-color: var(--global-card-bg-color);
   box-shadow: 0 8px 20px rgba(28, 36, 51, 0.08);
 }
 
@@ -1632,7 +1615,7 @@ html[data-theme="dark"] .featured-posts .card {
   border-radius: 14px;
   padding: 1.05rem;
   margin-bottom: 0.95rem;
-  background-color: rgba(251, 254, 251, 0.7);
+  background-color: var(--global-card-bg-color);
   transition:
     transform 0.15s ease,
     box-shadow 0.15s ease;
