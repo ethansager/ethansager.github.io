@@ -597,6 +597,84 @@ footer.sticky-bottom {
   }
 }
 
+// ASCII-style blog pagination
+.indie-pagination {
+  gap: 0.35rem;
+  flex-wrap: wrap;
+
+  .page-item .page-link {
+    font-family: "IBM Plex Mono", "SFMono-Regular", Menlo, Consolas, monospace;
+    font-size: 0.8rem;
+    border: 1px dashed var(--global-divider-color);
+    border-radius: 6px;
+    background: var(--global-card-bg-color);
+    color: var(--global-text-color);
+    padding: 0.3rem 0.65rem;
+    transition:
+      background-color 0.15s ease,
+      color 0.15s ease;
+
+    &:hover {
+      background: rgba(47, 125, 78, 0.12);
+      color: var(--global-theme-color);
+      border-color: var(--global-theme-color);
+    }
+  }
+
+  .page-item.active .page-link {
+    background: var(--global-theme-color);
+    border-color: var(--global-theme-color);
+    color: #fff;
+  }
+
+  .page-item.disabled .page-link {
+    opacity: 0.38;
+    pointer-events: none;
+  }
+}
+
+html[data-theme="dark"] .indie-pagination .page-item .page-link {
+  background: rgba(24, 27, 25, 0.82);
+
+  &:hover {
+    background: rgba(110, 194, 142, 0.18);
+  }
+}
+
+// Post tag / year chips
+.post-tags a,
+.post-list .post-tags a {
+  font-family: "IBM Plex Mono", "SFMono-Regular", Menlo, Consolas, monospace;
+  font-size: 0.75rem;
+  border: 1px dashed var(--global-divider-color);
+  border-radius: 5px;
+  padding: 0.1rem 0.45rem;
+  background: rgba(47, 125, 78, 0.07);
+  color: var(--global-text-color);
+  text-decoration: none;
+  white-space: nowrap;
+  transition:
+    background-color 0.15s ease,
+    color 0.15s ease;
+
+  &:hover {
+    background: rgba(47, 125, 78, 0.18);
+    color: var(--global-theme-color);
+    border-color: var(--global-theme-color);
+  }
+}
+
+html[data-theme="dark"] {
+  .post-tags a,
+  .post-list .post-tags a {
+    background: rgba(110, 194, 142, 0.1);
+
+    &:hover {
+      background: rgba(110, 194, 142, 0.22);
+    }
+  }
+}
+
 // Distill
 
 .distill {
@@ -1415,10 +1493,9 @@ html[data-theme="dark"] .profile .more-info {
   margin-bottom: 1.35rem;
 
   .ascii-art {
-    // Scale font so ~175-char wide art always fits without scrolling.
-    // (100vw - 5rem) is usable width; dividing by 110 ensures chars fit.
-    font-size: min(8px, calc((100vw - 5rem) / 110));
-    overflow-x: hidden;
+    // Art is ~170 chars wide; divisor ≈ 170 × 0.6ch-ratio ensures it fits.
+    font-size: min(8px, calc((100vw - 5rem) / 102));
+    overflow: hidden;
   }
 }
 
