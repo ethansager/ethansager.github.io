@@ -1493,8 +1493,7 @@ html[data-theme="dark"] .profile .more-info {
   margin-bottom: 1.35rem;
 
   .ascii-art {
-    // Art is ~170 chars wide; divisor ≈ 170 × 0.6ch-ratio ensures it fits.
-    font-size: min(8px, calc((100vw - 5rem) / 102));
+    font-size: 8px; // JS will scale down if needed to fit container
     overflow: hidden;
   }
 }

@@ -20,7 +20,7 @@ social: true # includes social icons at the bottom of the page
 
 <div class="indie-hero">
   <pre class="ascii-art" aria-hidden="true">
-   __/\\\\\\\\\\\\\\\________________/\\\____________________________________________________/\\\\\\\\\\\____________________________________________________________
+__/\\\\\\\\\\\\\\\________________/\\\____________________________________________________/\\\\\\\\\\\____________________________________________________________
  _\/\\\///////////________________\/\\\__________________________________________________/\\\/////////\\\__________________________________________________________
   _\/\\\_________________/\\\______\/\\\_________________________________________________\//\\\______\///___________________/\\\\\\\\_______________________________
    _\/\\\\\\\\\\\______/\\\\\\\\\\\_\/\\\__________/\\\\\\\\\_____/\\/\\\\\\_______________\////\\\__________/\\\\\\\\\_____/\\\////\\\_____/\\\\\\\\___/\\/\\\\\\\__
@@ -29,8 +29,42 @@ social: true # includes social icons at the bottom of the page
       _\/\\\________________\/\\\_/\\__\/\\\___\/\\\__/\\\/////\\\__\/\\\___\/\\\____________/\\\______\//\\\___/\\\/////\\\___/\\_____\\\_\//\\///////___\/\\\_________
        _\/\\\\\\\\\\\\\\\____\//\\\\\___\/\\\___\/\\\_\//\\\\\\\\/\\_\/\\\___\/\\\___________\///\\\\\\\\\\\/___\//\\\\\\\\/\\_\//\\\\\\\\___\//\\\\\\\\\\_\/\\\_________
         _\///////////////______\/////____\///____\///___\////////\//__\///____\///______________\///////////______\////////\//___\////////_____\//////////__\///__________
+        
   </pre>
 </div>
+
+<script>
+(function () {
+  function fitHeroArt() {
+    var pre = document.querySelector('.indie-hero .ascii-art');
+    if (!pre) return;
+
+    // Clone off-screen with no constraints to measure true content width
+    var computedFont = window.getComputedStyle(pre).fontFamily;
+    var clone = pre.cloneNode(true);
+    clone.style.cssText =
+      'position:absolute;left:-9999px;top:-9999px;visibility:hidden;' +
+      'font-size:8px;overflow:visible;width:auto;white-space:pre;' +
+      'font-family:' + computedFont + ';';
+    document.body.appendChild(clone);
+    var naturalWidth = clone.offsetWidth;
+    document.body.removeChild(clone);
+
+    var containerWidth = pre.parentElement.clientWidth;
+    pre.style.fontSize =
+      naturalWidth > containerWidth
+        ? Math.max(1, (8 * containerWidth) / naturalWidth) + 'px'
+        : '8px';
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', fitHeroArt);
+  } else {
+    fitHeroArt();
+  }
+  window.addEventListener('resize', fitHeroArt);
+})();
+</script>
 
 I am a master's student in International Development Policy at the McCourt School of Public Policy. My work focuses on impact analysis, econometrics, and beneficiary dignity in development policy.
 
