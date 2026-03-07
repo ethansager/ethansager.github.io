@@ -1487,17 +1487,6 @@ html[data-theme="dark"] .profile .more-info {
   background: rgba(24, 27, 25, 0.62);
 }
 
-.indie-hero {
-  display: grid;
-  gap: 0.9rem;
-  margin-bottom: 1.35rem;
-
-  .ascii-art {
-    font-size: 8px; // JS will scale down if needed to fit container
-    overflow: hidden;
-  }
-}
-
 .ascii-art {
   margin: 0;
   padding: 0.95rem 1rem;
