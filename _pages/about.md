@@ -18,6 +18,8 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
+# Ethan Sager
+
 I am a master's student in International Development Policy at the McCourt School of Public Policy. My work focuses on impact analysis, econometrics, and beneficiary dignity in development policy.
 
 Previously, I worked as a survey researcher at Gallup and as a monitoring, evaluation, and learning assistant with the Ross Center for Sustainable Cities at the World Resources Institute.
