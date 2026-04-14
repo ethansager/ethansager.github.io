@@ -1401,9 +1401,7 @@ pre,
 code,
 .profile .more-info,
 .contact-note,
-.indie-pill,
-.ascii-art,
-.indie-status {
+.indie-pill {
   font-family: "IBM Plex Mono", "SFMono-Regular", Menlo, Consolas, monospace;
 }
 
@@ -1428,13 +1426,13 @@ html[data-theme="dark"] .post {
 .navbar {
   opacity: 1;
   border-bottom: 1px solid var(--global-divider-color);
-  background-color: rgba(232, 245, 233, 0.92);
+  background-color: rgba(255, 255, 255, 0.92);
   backdrop-filter: blur(9px);
   -webkit-backdrop-filter: blur(9px);
 }
 
 html[data-theme="dark"] .navbar {
-  background-color: rgba(24, 27, 25, 0.82);
+  background-color: rgba(26, 26, 26, 0.88);
 }
 
 .navbar.navbar-light .navbar-nav .nav-item .nav-link {
@@ -1487,32 +1485,6 @@ html[data-theme="dark"] .profile .more-info {
   background: rgba(24, 27, 25, 0.62);
 }
 
-.ascii-art {
-  margin: 0;
-  padding: 0.95rem 1rem;
-  border: 1px dashed var(--global-divider-color);
-  border-radius: 12px;
-  font-size: 0.78rem;
-  line-height: 1.24;
-  overflow-x: auto;
-  background: rgba(47, 125, 78, 0.08);
-}
-
-html[data-theme="dark"] .ascii-art {
-  background: rgba(110, 194, 142, 0.12);
-}
-
-.indie-status {
-  margin: 0;
-  padding: 0.55rem 0.8rem;
-  border-left: 3px solid var(--global-theme-color);
-  background: rgba(47, 125, 78, 0.1);
-  font-size: 0.83rem;
-}
-
-html[data-theme="dark"] .indie-status {
-  background: rgba(110, 194, 142, 0.2);
-}
 
 .indie-grid {
   display: grid;
@@ -1596,10 +1568,6 @@ footer.sticky-bottom {
     font-size: clamp(1.6rem, 8vw, 2.3rem);
   }
 
-  .ascii-art {
-    font-size: 0.69rem;
-  }
-
   .indie-grid {
     grid-template-columns: 1fr;
   }
@@ -1608,16 +1576,6 @@ footer.sticky-bottom {
 /*******************************************************************************
  * Blog, projects, cv alignment
  ******************************************************************************/
-
-.indie-page-intro {
-  display: grid;
-  gap: 0.7rem;
-  margin-bottom: 1.1rem;
-}
-
-.indie-page-intro .ascii-art {
-  font-size: 0.73rem;
-}
 
 .header-bar {
   margin-bottom: 1rem;
@@ -1812,10 +1770,6 @@ html[data-theme="dark"] .post-list li {
 }
 
 @media (max-width: 767px) {
-  .indie-page-intro .ascii-art {
-    font-size: 0.64rem;
-  }
-
   .post-list li {
     padding: 0.85rem;
   }
