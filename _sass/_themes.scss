@@ -3,24 +3,24 @@
  ******************************************************************************/
 
 :root {
-  --global-bg-color: #e8f5e9;
-  --global-code-bg-color: #e7f1e7;
-  --global-text-color: #1b2a20;
-  --global-text-color-light: #4d6356;
+  --global-bg-color: #{$white-color};
+  --global-code-bg-color: #f5f5f5;
+  --global-text-color: #212529;
+  --global-text-color-light: #6c757d;
   --global-theme-color: #2f7d4e;
-  --global-hover-color: #25663f;
+  --global-hover-color: #1f5c38;
   --global-hover-text-color: #{$white-color};
-  --global-footer-bg-color: #193126;
-  --global-footer-text-color: #d5e6da;
+  --global-footer-bg-color: #1c1c1d;
+  --global-footer-text-color: #adb5bd;
   --global-footer-link-color: #{$white-color};
-  --global-distill-app-color: #4d6356;
-  --global-divider-color: rgba(27, 42, 32, 0.16);
-  --global-card-bg-color: #eef7ee;
-  --global-highlight-color: #1f5a36;
+  --global-distill-app-color: #6c757d;
+  --global-divider-color: rgba(0, 0, 0, 0.1);
+  --global-card-bg-color: #f8f9fa;
+  --global-highlight-color: #1f5c38;
   --global-back-to-top-bg-color: rgba(#{red($black-color)}, #{green($black-color)}, #{blue($black-color)}, 0.4);
   --global-back-to-top-text-color: #{$white-color};
-  --global-newsletter-bg-color: #eef7ee;
-  --global-newsletter-text-color: #1b2a20;
+  --global-newsletter-bg-color: #f8f9fa;
+  --global-newsletter-text-color: #212529;
 
   --global-tip-block: #42b983;
   --global-tip-block-bg: #e2f5ec;
@@ -68,23 +68,23 @@
 }
 
 html[data-theme="dark"] {
-  --global-bg-color: #191d1b;
-  --global-code-bg-color: #232926;
-  --global-text-color: #e2ede7;
-  --global-text-color-light: #8faa99;
+  --global-bg-color: #1a1a1a;
+  --global-code-bg-color: #2b2b2b;
+  --global-text-color: #e8e8e8;
+  --global-text-color-light: #9e9e9e;
   --global-theme-color: #57a878;
   --global-hover-color: #6dbb90;
   --global-hover-text-color: #0f1410;
-  --global-footer-bg-color: #111614;
-  --global-footer-text-color: #c0d2c9;
-  --global-footer-link-color: #e2ede7;
-  --global-distill-app-color: #c0d2c9;
-  --global-divider-color: #2c3632;
-  --global-card-bg-color: #1f2522;
+  --global-footer-bg-color: #111111;
+  --global-footer-text-color: #9e9e9e;
+  --global-footer-link-color: #e8e8e8;
+  --global-distill-app-color: #9e9e9e;
+  --global-divider-color: rgba(255, 255, 255, 0.1);
+  --global-card-bg-color: #242424;
   --global-back-to-top-bg-color: rgba(#{red($white-color)}, #{green($white-color)}, #{blue($white-color)}, 0.5);
   --global-back-to-top-text-color: #{$black-color};
-  --global-newsletter-bg-color: #232825;
-  --global-newsletter-text-color: #e6f2e9;
+  --global-newsletter-bg-color: #242424;
+  --global-newsletter-text-color: #e8e8e8;
 
   --global-tip-block: #42b983;
   --global-tip-block-bg: #e2f5ec;
