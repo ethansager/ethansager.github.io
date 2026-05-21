@@ -22,4 +22,12 @@ I am a master's student in International Development Policy at the McCourt Schoo
 
 Previously, I worked as a survey researcher at Gallup and as a monitoring, evaluation, and learning assistant with the Ross Center for Sustainable Cities at the World Resources Institute.
 
-I currently work with Professors [Andrew Zeitlin](https://andrewzeitlin.io/) and [Billy Jack](https://faculty.georgetown.edu/wgj/) at Gui2de, Professor [Jennifer Tobin](https://faculty.georgetown.edu/jlt58/) at McCourt, and Professor [Andrew Dillon](https://www.kellogg.northwestern.edu/faculty/directory/dillon_andrew.aspx) at GPRL.
+## research
+
+I currently work as a research assistant with:
+
+- Professors [Andrew Zeitlin](https://andrewzeitlin.io/) and [Billy Jack](https://faculty.georgetown.edu/wgj/) at [gui2de](https://gui2de.georgetown.edu/), on field experiments in development.
+- Professor [Jennifer Tobin](https://faculty.georgetown.edu/jlt58/) at McCourt, on international political economy.
+- Professor [Andrew Dillon](https://www.kellogg.northwestern.edu/faculty/directory/dillon_andrew.aspx) at the [Global Poverty Research Lab](https://gprl.northwestern.edu/) (Kellogg).
+
+My interests sit at the intersection of impact evaluation, econometric methodology, and how survey instruments shape what we can learn about welfare in low-income settings. See the [research]({{ '/research/' | relative_url }}) page for current working papers.

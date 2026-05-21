@@ -1774,3 +1774,58 @@ html[data-theme="dark"] .post-list li {
     padding: 0.85rem;
   }
 }
+
+/* ----- Green accent treatments ----- */
+
+.post article h2,
+.post article > h2 {
+  position: relative;
+  padding-bottom: 0.35rem;
+  margin-top: 2.2rem;
+  margin-bottom: 1rem;
+  font-size: 1.55rem;
+  text-transform: lowercase;
+  letter-spacing: 0.02em;
+}
+
+.post article h2::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 2.4rem;
+  height: 3px;
+  background: var(--global-theme-color);
+  border-radius: 2px;
+}
+
+.post-title .font-weight-bold {
+  color: var(--global-theme-color);
+}
+
+.post-header .desc {
+  border-left: 3px solid var(--global-theme-color);
+  padding-left: 0.65rem;
+  margin-top: 0.4rem;
+}
+
+.navbar.navbar-light .navbar-nav .nav-item.active > .nav-link {
+  background-color: rgba(47, 125, 78, 0.14);
+  color: var(--global-theme-color);
+}
+
+html[data-theme="dark"] .navbar.navbar-light .navbar-nav .nav-item.active > .nav-link {
+  background-color: rgba(110, 194, 142, 0.22);
+}
+
+.post article strong {
+  color: var(--global-hover-color);
+}
+
+html[data-theme="dark"] .post article strong {
+  color: var(--global-theme-color);
+}
+
+.post article ul li::marker {
+  color: var(--global-theme-color);
+}
