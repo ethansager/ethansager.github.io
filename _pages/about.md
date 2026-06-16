@@ -28,6 +28,6 @@ I currently work as a research assistant with:
 
 - Professors [Andrew Zeitlin](https://andrewzeitlin.io/) and [Billy Jack](https://faculty.georgetown.edu/wgj/) at [gui2de](https://gui2de.georgetown.edu/), on field experiments in development.
 - Professor [Jennifer Tobin](https://faculty.georgetown.edu/jlt58/) at McCourt, on international political economy.
-- Professor [Andrew Dillon](https://www.kellogg.northwestern.edu/faculty/directory/dillon_andrew.aspx) at the [Global Poverty Research Lab](https://gprl.northwestern.edu/) (Kellogg).
+- Professor [Andrew Dillon](https://www.kellogg.northwestern.edu/faculty/directory/dillon_andrew.aspx) at the [Global Poverty Research Lab](https://www.kellogg.northwestern.edu/academics-research/global-poverty-research-lab/) (Kellogg).
 
 My interests sit at the intersection of impact evaluation, econometric methodology, and how survey instruments shape what we can learn about welfare in low-income settings. See the [research]({{ '/research/' | relative_url }}) page for current working papers.
