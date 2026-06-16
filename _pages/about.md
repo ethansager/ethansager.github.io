@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Master's Student, International Development Policy · Georgetown University
+subtitle: Incoming Predoctoral Fellow, CEGA · UC Berkeley
 
 profile:
   align: right
@@ -18,9 +18,9 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am a master's student in International Development Policy at the McCourt School of Public Policy. My work focuses on impact analysis, econometrics, and beneficiary dignity in development policy.
+I am an incoming Predoctoral Fellow at the [Center for Effective Global Action (CEGA)](https://cega.berkeley.edu/) at UC Berkeley, where I will work with [Edward Miguel](https://emiguel.econ.berkeley.edu/). My work focuses on impact analysis, econometrics, and beneficiary dignity in development policy.
 
-Previously, I worked as a survey researcher at Gallup and as a monitoring, evaluation, and learning assistant with the Ross Center for Sustainable Cities at the World Resources Institute.
+I recently completed my master's in International Development Policy at Georgetown's McCourt School of Public Policy. Previously, I worked as a survey researcher at Gallup and as a monitoring, evaluation, and learning assistant with the Ross Center for Sustainable Cities at the World Resources Institute.
 
 ## research
 
